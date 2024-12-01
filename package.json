@@ -1,0 +1,22 @@
+{
+  "name": "engenious",
+  "version": "1.0.0",
+  "description": "test-project",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:web-client": "playwright test --project=web-client"
+  },
+  "author": "pavlo_yuzva",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1"
+  },
+  "keywords": []
+}
